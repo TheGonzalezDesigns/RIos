@@ -24,4 +24,8 @@ This will connect Rios to your server.
 >	* You can optionally specify the port to connect to using `meteor --port ...` instead.
 >	* Execute `meteor help run` for more information regarding the command.
 
+# Licence
+> The MIT License (MIT)
+
+> Copyright (c) 2016 TheGonzalezDesigns & rhgksrua
 
