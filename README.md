@@ -7,7 +7,7 @@
 
 # Usage
 1. Open a terminal.
-2. Navigate to the Rios application directory/
+2. Navigate to the Rios application directory
 3. Execute the following commands according to your needs.
 #### Production
 >	* `meteor --port ...`
