@@ -3,7 +3,7 @@
 ***
 # Installation
 1. [Install Meteor](https://www.meteor.com/install)
-2. [Clone This Repository](https://github.com/TheGonzalezDesigns/Rios)
+2. [Clone this repository.](https://github.com/TheGonzalezDesigns/Rios)
 
 # Usage
 1. Open a terminal.
@@ -18,6 +18,7 @@ This will connect Rios to your server.
 >	* `meteor run`
 >	* This will connect Rios to `localhost:3000` by default.
 >	* You can optionally specify the port to connect to using `meteor --port ...` instead.
+>	* Execute `meteor help run` for more information regarding the command.
 
 
 
