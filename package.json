@@ -5,6 +5,8 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "bcrypt-nodejs": "0.0.3",
+    "meteor-node-stubs": "~0.2.0",
+    "mongoose": "^4.5.7"
   }
 }
