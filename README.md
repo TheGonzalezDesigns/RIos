@@ -3,7 +3,7 @@
 ***
 # Installation
 1. [Install Meteor](https://www.meteor.com/install)
-2. [Clone This Repository](git@github.com:TheGonzalezDesigns/Rios.git)
+2. [Clone This Repository](https://github.com/TheGonzalezDesigns/Rios)
 
 # Usage
 1. Open a terminal.
