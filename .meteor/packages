@@ -24,3 +24,4 @@ accounts-password
 accounts-ui
 react-meteor-data
 useraccounts:materialize
+useraccounts:iron-routing
