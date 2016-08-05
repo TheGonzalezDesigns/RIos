@@ -1,4 +1,3 @@
-/*jshint esnext: true, browser: true*/
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Template } from 'meteor/templating';

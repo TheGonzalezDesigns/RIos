@@ -1,4 +1,3 @@
-/*jshint esnext: true, browser: true, indent: 4*/
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';

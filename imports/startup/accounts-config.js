@@ -1,4 +1,3 @@
-/*jshint esnext: true, browser: true*/
 import { Accounts } from 'meteor/accounts-base';
 
 /*
