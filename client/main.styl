@@ -1,3 +1,17 @@
-/* CSS declarations go here */
+$Flush
+	margin 0
+	padding 0
+box(size)
+	height size
+	width size
+flex(x = initial, y = initial)
+	display flex
+	justify-content (x == "left" ? flex-start : (x == "right" ? flex-end : x))
+	align-items (y == "top" ? flex-start : (y == "bottom" ? flex-end : y))
 body
-    background lightness(saturation(blue, 45%), 90%)
+	@extend $Flush
+	background lightness(saturation(aqua, 45%), 87)
+	font-family sans-serif
+	flex(center, center)
+	height 100vh
+
