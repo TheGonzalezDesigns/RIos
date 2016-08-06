@@ -1,0 +1,28 @@
+{
+	"root": true,
+	"parserOptions": {
+		"ecmaVersion": 7,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"modules": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"es6": true,
+		"meteor": true
+	},
+	"plugins": [
+		"babel"
+	],
+	"extends": [
+		"eslint:recommended"
+	],
+	"rules": {
+		"semi": ["error", "always"],
+		"quotes": ["error", "double"],
+		"no-unused-vars": 0,
+		"indent": ["error", "tab"]
+	}
+}
