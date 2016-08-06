@@ -14,10 +14,12 @@
 		"meteor": true
 	},
 	"plugins": [
-		"babel"
+		"babel",
+		"meteor"
 	],
 	"extends": [
-		"eslint:recommended"
+		"eslint:recommended",
+		"plugin:meteor/recommended"
 	],
 	"rules": {
 		"semi": ["error", "always"],
