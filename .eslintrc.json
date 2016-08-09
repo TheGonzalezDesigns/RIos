@@ -5,7 +5,8 @@
 		"sourceType": "module",
 		"ecmaFeatures": {
 			"jsx": true,
-			"modules": true
+			"modules": true,
+			"impliedStrict": true
 		}
 	},
 	"env": {
@@ -15,16 +16,21 @@
 	},
 	"plugins": [
 		"babel",
-		"meteor"
+		"meteor",
+		"react",
+		"jsx-a11y"
 	],
 	"extends": [
 		"eslint:recommended",
-		"plugin:meteor/recommended"
+		"plugin:meteor/recommended",
+		"plugin:react/recommended",
+		"plugin:jsx-a11y/recommended"
 	],
 	"rules": {
 		"semi": ["error", "always"],
 		"quotes": ["error", "double"],
-		"no-unused-vars": 0,
-		"indent": ["error", "tab"]
+		"indent": ["error", "tab"],
+		"react/jsx-indent": [2, "tab"],
+		"no-unused-vars": ["off"]
 	}
 }
