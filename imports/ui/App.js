@@ -23,8 +23,8 @@ class App extends Component {
                         <p>userId: {currentUser._id}</p>
                         <p>username: {currentUser.username}</p>
                         <p>email: {Array.isArray(currentUser.emails) ? currentUser.emails[0].address : 'no email'}</p>
-                        <p>first: {currentUser.profile.first}</p>
-                        <p>last: {currentUser.profile.last}</p>
+                        <p>first: {currentUser.profile ? currentUser.profile.first : ''}</p>
+                        <p>last: {currentUser.profile ? currentUser.profile.last : ''}</p>
                     </div>
                     }
                 </header>

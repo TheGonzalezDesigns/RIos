@@ -22,3 +22,5 @@ mquandalle:stylus
 npm-bcrypt
 accounts-password
 react-meteor-data
+aldeed:simple-schema
+alanning:roles
