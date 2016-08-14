@@ -2,9 +2,11 @@ import React from "react";
 import { Meteor } from "meteor/meteor";
 import { render } from "react-dom";
 
-import "../imports/startup/accounts-config.js";
-import App from "../imports/ui/App.js";
+import Store from "../imports/ui/Store.jsx";
+import Home from "../imports/ui/Home.js";
+
+//console.log(Store);
 
 Meteor.startup(() => {
-	render(<App />, document.getElementById("App"));
+    render(<Store />, document.getElementById("App"));
 });

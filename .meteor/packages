@@ -21,5 +21,4 @@ mquandalle:jade
 mquandalle:stylus
 npm-bcrypt
 accounts-password
-accounts-ui
 react-meteor-data
