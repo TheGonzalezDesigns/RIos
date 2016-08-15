@@ -24,3 +24,4 @@ accounts-password
 react-meteor-data
 aldeed:simple-schema
 alanning:roles
+practicalmeteor:mocha
